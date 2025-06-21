@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Michael R. Gilbaliga - Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #3498db;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            max-width: 960px;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            margin-top: 10px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: var(--primary-color);
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #2c3e50;
+            font-family: 'Montserrat', sans-serif;
+        }
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile.jpg" alt="John Michael R. Gilbaliga" style="width:150px;height:150px;border-radius:50%;">
+            <h1>John Michael R. Gilbaliga</h1>
+            <p>BS Information Technology Student</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate and driven Information Technology student from Manapla, with a strong desire to learn and grow in the tech industry. I am currently honing my skills in web development and am excited about building innovative and user-friendly web applications.</p>
+            <p><strong>Note:</strong> To add your own profile picture, save your image as `profile.jpg` in the `images` directory.</p>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <div id="education">
+                <h3>Educational Attainment</h3>
+                <ul>
+                    <li>BS in Information Technology</li>
+                </ul>
+            </div>
+            <div id="certifications">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>[Your Certifications Here] - e.g., "AWS Certified Cloud Practitioner"</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 John Michael R. Gilbaliga</p>
+    </footer>
+</body>
+</html>
